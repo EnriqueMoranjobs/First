@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.emoran.myapplication" >
+//dar permiso para que la app conecte a internet para cargar la imagen via url
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/putanubr"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/putanubr_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication."
+                                              >
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/NoActionTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity
+            android:name=".SignUp"
+            android:exported="true"
+            android:parentActivityName=".LoginActivity"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:theme="@style/NoActionTheme" >
+        </activity>
+    </application>
+
+</manifest>
