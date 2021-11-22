@@ -10,7 +10,7 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class SplashScreen  extends AppCompatActivity {
+public class SplashScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
@@ -19,17 +19,18 @@ public class SplashScreen  extends AppCompatActivity {
         //implements and start animation
         ImageView star = (ImageView) findViewById(R.id.logoSplash);
 
-        Animation myanim = AnimationUtils.loadAnimation(this,R.anim.fadein);
+        Animation myanim = AnimationUtils.loadAnimation(this, R.anim.fadein);
         star.startAnimation(myanim);
 
 
     }
-    private void openApp(boolean locationPermission){
+
+    private void openApp(boolean locationPermission) {
         new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
             @Override
             public void run() {
                 Intent intent = new Intent(SplashScreen
-                        .this,LoginActivity.class);
+                        .this, LoginActivity.class);
                 startActivity(intent);
             }
         }, 2000);

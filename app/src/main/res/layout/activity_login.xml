@@ -18,6 +18,7 @@
 
 
     <View
+        android:id="@+id/view2"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:background="@drawable/gradient"
@@ -37,10 +38,11 @@
 
 
         <EditText
+            android:id="@+id/userNameId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
-            android:text="User name"></EditText>
+            android:hint="Username"
+            android:inputType="text"></EditText>
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -61,7 +63,7 @@
             android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="password"
+            android:hint="Password"
             android:inputType="textPassword"
             android:maxLines="1" />
 
@@ -73,7 +75,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:backgroundTint="@color/button_custom"
+        android:alpha="0.8"
+        android:backgroundTint="@android:color/holo_orange_dark"
         android:onClick="openMain"
         android:text="Entra"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
@@ -84,26 +87,27 @@
         android:id="@+id/button2"
         style="@style/myButton2"
         android:layout_width="210dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="20dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
         android:text="SALE"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
         app:layout_constraintStart_toStartOf="@id/guideline2"
         app:layout_constraintTop_toBottomOf="@id/button" />
 
+
     <Button
         android:id="@+id/button3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="140dp"
-        android:backgroundTint="@color/button_custom"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
         android:onClick="openSignUp"
         android:text="Registrate"
+        android:textColor="#4A148C"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@id/guideline2"
-        app:layout_constraintTop_toBottomOf="@id/caja2" />
-
-
+        app:layout_constraintTop_toBottomOf="@id/button2" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -118,11 +122,14 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.75" />
+
     <ImageView
-        android:layout_width="match_parent"
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_star_svgrepo_com"
-        tools:ignore="MissingConstraints"></ImageView>
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"></ImageView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
