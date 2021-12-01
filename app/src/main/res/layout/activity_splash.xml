@@ -17,8 +17,8 @@
 
     <ImageView
         android:id="@+id/logoSplash"
-        android:layout_width="256dp"
-        android:layout_height="343dp"
+        android:layout_width="310dp"
+        android:layout_height="361dp"
         android:src="@mipmap/icono_barco_foreground"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,13 +31,13 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="340dp"
-        android:fontFamily="@font/backstone"
+        android:layout_marginTop="360dp"
+        android:fontFamily="@font/mandaly"
         android:text="FIRST"
-        android:textSize="100dp"
         android:textColor="@color/rojo_barco"
+        android:textSize="150dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

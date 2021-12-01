@@ -30,10 +30,10 @@
         android:id="@+id/cajauno"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="250dp"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
         app:layout_constraintStart_toStartOf="@id/guideline2"
-        app:layout_constraintTop_toTopOf="@id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
         app:startIconDrawable="@drawable/ic_tarta_foreground">
 
 
@@ -51,12 +51,12 @@
         android:id="@+id/caja2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="60dp"
         android:alpha="0.8"
         android:background="@android:color/white"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
         app:layout_constraintStart_toStartOf="@id/guideline2"
-        app:layout_constraintTop_toBottomOf="@id/guideline4"
+        app:layout_constraintTop_toTopOf="@id/cajauno"
         app:passwordToggleEnabled="true"
         app:startIconDrawable="@drawable/iconollave"
         >
@@ -79,10 +79,10 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="364dp"
+
         android:alpha="0.8"
         android:backgroundTint="#FB545C"
         android:onClick="openMain"
-
         android:text="Entra"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
         app:layout_constraintHorizontal_bias="0.0"
@@ -90,22 +90,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
-        style="@style/myButton2"
-        android:layout_width="210dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="404dp"
-        android:text="SALE"
-        app:layout_constraintEnd_toEndOf="@id/guideline3"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@id/guideline2"
-        app:layout_constraintTop_toTopOf="@+id/view2" />
-
-    <Button
         android:id="@+id/button3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="452dp"
+        android:layout_marginTop="404dp"
         android:alpha="0.8"
         android:backgroundTint="#FB545C"
         android:onClick="openSignUp"
@@ -114,7 +102,7 @@
         app:layout_constraintEnd_toEndOf="@id/guideline3"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@id/guideline2"
-        app:layout_constraintTop_toTopOf="@+id/view2" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -132,8 +120,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="192dp"
-        android:layout_height="156dp"
+        android:layout_width="189dp"
+        android:layout_height="203dp"
         android:layout_marginTop="24dp"
         android:src="@drawable/icono_barco_round"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
@@ -142,12 +130,6 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"></ImageView>
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.41" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
