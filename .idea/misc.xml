@@ -3,20 +3,50 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/drawable-anydpi/icono_descarga.xml" value="0.2546875" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/drawable-anydpi/icono_lupita.xml" value="0.2703125" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.6" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/gradient.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/hearth.xml" value="0.2546875" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/hearthxml.xml" value="0.2546875" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24583333333333332" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_star_svgrepo_com.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_tarta_background.xml" value="0.2546875" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_tarta_foreground.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/icono_barcoSplash_foreground.xml" value="0.2484375" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/iconoemail.xml" value="0.2546875" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/iconollave.xml" value="0.2546875" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/iconousuario.xml" value="0.2546875" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/mylauncher_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/nube_background.xml" value="0.2546875" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/putanubr_background.xml" value="0.14270833333333333" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_sign_up.xml" value="0.72" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_splash.xml" value="0.264" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/menu/menu_context.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_sign_up.xml" value="0.176" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/layout/alertdialog_view.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/menu/menu_context.xml" value="0.264" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/menu/menu_top.xml" value="0.1" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/boat.xml" value="0.2546875" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/boat_round.xml" value="0.25076923076923074" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/corazon.xml" value="0.2546875" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_boat.xml" value="0.25076923076923074" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2703125" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2703125" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_tarta.xml" value="0.2703125" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_tarta_round.xml" value="0.2703125" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/icono_barco.xml" value="0.24461538461538462" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/icono_barcoSplash.xml" value="0.4" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/icono_barco_round.xml" value="0.24461538461538462" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/icorazon.xml" value="0.2546875" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/icorazon_round.xml" value="0.1" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/icprincipal.xml" value="0.128" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/icprincipal_round.xml" value="0.1" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/mylauncher.xml" value="0.2703125" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/mylauncher_round.xml" value="0.2546875" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/nube.xml" value="0.2703125" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/putanubr.xml" value="0.2703125" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/putanubr_round.xml" value="0.2703125" />
       </map>
     </option>
   </component>

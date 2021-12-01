@@ -11,4 +11,5 @@
     <color name="naranjaTransparente">#FF9800</color>
     <color name="purple_500_transparencia">#F7755FEF</color>
     <color name="transparente">#00000000</color>
+    <color name="rojo_barco">#fb545c</color>
 </resources>

@@ -4,7 +4,7 @@
     android:duration="1500"
     android:fillAfter="false"
     android:fromDegrees="0"
-    android:pivotX="70%"
-    android:pivotY="70%"
+    android:pivotX="40%"
+    android:pivotY="40%"
     android:toDegrees="360"
     />

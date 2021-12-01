@@ -5,9 +5,9 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/putanubr"
+        android:icon="@mipmap/icono_barco_foreground"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/putanubr_round"
+        android:roundIcon="@mipmap/icono_barco_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication.">
         <activity
@@ -16,7 +16,6 @@
             android:theme="@style/NoActionTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

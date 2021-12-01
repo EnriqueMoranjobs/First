@@ -30,10 +30,10 @@
         android:id="@+id/cajauno"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="200dp"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
         app:layout_constraintStart_toStartOf="@id/guideline2"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imageView"
         app:startIconDrawable="@drawable/ic_tarta_foreground">
 
 
@@ -41,6 +41,7 @@
             android:id="@+id/userNameId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:alpha="0.8"
             android:hint="Username"
             android:inputType="text"></EditText>
     </com.google.android.material.textfield.TextInputLayout>
@@ -55,14 +56,16 @@
         android:background="@android:color/white"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
         app:layout_constraintStart_toStartOf="@id/guideline2"
-        app:layout_constraintTop_toBottomOf="@id/cajauno"
-        app:passwordToggleEnabled="true">
+        app:layout_constraintTop_toBottomOf="@id/guideline4"
+        app:passwordToggleEnabled="true"
+        app:startIconDrawable="@drawable/iconollave"
+        >
 
         <EditText
 
             android:id="@+id/password"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:hint="Password"
             android:inputType="textPassword"
             android:maxLines="1" />
@@ -70,44 +73,48 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
+
     <Button
         android:id="@+id/button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="364dp"
         android:alpha="0.8"
-        android:backgroundTint="@android:color/holo_orange_dark"
+        android:backgroundTint="#FB545C"
         android:onClick="openMain"
+
         android:text="Entra"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@id/guideline2"
-        app:layout_constraintTop_toBottomOf="@id/caja2" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button2"
         style="@style/myButton2"
         android:layout_width="210dp"
         android:layout_height="48dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="404dp"
         android:text="SALE"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@id/guideline2"
-        app:layout_constraintTop_toBottomOf="@id/button" />
-
+        app:layout_constraintTop_toTopOf="@+id/view2" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:backgroundTint="@android:color/holo_orange_dark"
+        android:layout_marginTop="452dp"
+        android:alpha="0.8"
+        android:backgroundTint="#FB545C"
         android:onClick="openSignUp"
         android:text="Registrate"
-        android:textColor="#4A148C"
+        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@id/guideline2"
-        app:layout_constraintTop_toBottomOf="@id/button2" />
+        app:layout_constraintTop_toTopOf="@+id/view2" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -125,11 +132,22 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_star_svgrepo_com"
+        android:layout_width="192dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/icono_barco_round"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        app:layout_constraintStart_toStartOf="@+id/guideline2"></ImageView>
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"></ImageView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.41" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
