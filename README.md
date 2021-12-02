@@ -33,8 +33,29 @@ En el  arbol de componentes tenemos :
   *Un Glide para darle fondo, este difumina dos colores que da un aspecto bonito a la app
   
  En el java de Login tenemos:
-  * Un Glide que le da
+  * Glide para carga la imagen de la chica: 
   
+   //glide para cargar la imagen de girls
+        Glide.with(this)
+                //carga imagen, hay que dar permiso a internet en android manifest
+                .load(R.drawable.girl)
+                //transition hae que cargue la imagen un poco mas tarde
+                .transition(DrawableTransitionOptions.withCrossFade(100))
+                .into(mgirl);
+  
+  * Onclicks para ir a Main y a SignUp
+  *  public void openMain(View w){
+        Intent intent = new Intent(LoginActivity.this,MainActivity.class);
+        
+           *intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);   --> Pila de tareas
+           *intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK); --> Nos libera la pila de tareas sacandonos de la app
+        startActivity(intent);
+    }
+
+    public void openSignUp(View w){
+        Intent intent = new Intent(LoginActivity.this,SignUp.class);
+        startActivity(intent);
+    }
 
 
 
