@@ -18,8 +18,8 @@ Lo mas destacado es una animación en el que barco rota dándole dinamismo y una
 Para la animación creamos una carpeta en res llamada anim en el que dentro metimos un xml llamado fadein con la configuración de nuestra animación.
 Enlazaremos en con nuestra clase en Java con esta línea.
 
-Animation myanim = AnimationUtils.loadAnimation(this, R.anim.fadein);
-star.startAnimation(myanim);
+*Animation myanim = AnimationUtils.loadAnimation(this, R.anim.fadein);
+*star.startAnimation(myanim);
 
 ## Login
 
@@ -49,13 +49,13 @@ En el  arbol de componentes tenemos :
         
            *intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);   --> Pila de tareas
            *intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK); --> Nos libera la pila de tareas sacandonos de la app
-        startActivity(intent);
-    }
+           *startActivity(intent);
+    *}
 
-    public void openSignUp(View w){
-        Intent intent = new Intent(LoginActivity.this,SignUp.class);
-        startActivity(intent);
-    }
+     *public void openSignUp(View w){
+        *Intent intent = new Intent(LoginActivity.this,SignUp.class);
+        *startActivity(intent);
+    *}
 
 
 
