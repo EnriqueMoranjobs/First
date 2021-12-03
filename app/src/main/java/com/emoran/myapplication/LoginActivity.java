@@ -19,7 +19,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ImageView mgirl = findViewById(R.id.girl);
-//glide para cargar la imagen de girls
+        //glide para cargar la imagen de girls
         Glide.with(this)
                 //carga imagen, hay que dar permiso a internet en android manifest
                 .load(R.drawable.girl)
