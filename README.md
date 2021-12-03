@@ -108,9 +108,14 @@ Aqui podemos observar un menu contextual que cuando hacemos un click largo nos d
 
 ![taplong](https://user-images.githubusercontent.com/91469065/144670569-598ef12b-b023-4649-852b-7fcdd50c46ba.gif)
 
+![giphy](https://user-images.githubusercontent.com/91469065/144671403-253bece8-b471-4112-afd4-7a5167dacaee.gif)
 
 
-  
+
+tambien destaca la presencia de Toast
+
+![finalgif](https://user-images.githubusercontent.com/91469065/144671107-087c7da0-1044-49fa-8cf2-c6ad736a3659.gif)
+
      
 
 
