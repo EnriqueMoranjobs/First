@@ -106,7 +106,7 @@ si clickeamos hacia arriba podemos ver como cambia la foto y sale el icono de es
 
 Aqui podemos observar un menu contextual que cuando hacemos un click largo nos despliega dos opciones. Si clickeamos en copy nos saldra un snackbar que nos llevará a otro si pulsamos en "deshacer", nos saldrá "accion restaurada".
 
-![taplong](https://user-images.g![top](https://user-images.githubusercontent.com/91469065/144669486-ed43d721-59dc-4176-a9f2-4622e22267bd.gif)
+![taplong](https://user-images.githubusercontent.com/91469065/144670569-598ef12b-b023-4649-852b-7fcdd50c46ba.gif)
 
 
 
