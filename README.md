@@ -32,12 +32,19 @@ Enlazaremos en con nuestra clase en Java con esta línea.
 Es nuestra pantalla de inicio de sesión.
 En el  arbol de componentes tenemos :
   *Constraint layout
+  
   *Dos guide line para centrar los componentes en nuestra pantalla
+  
   *Dos editview para nuestros TextEdit de "Usuario" y "Password".
+  
   *Dos botones de "Entra" con un Onclick a la activity Main  y "Registrate" con un Onclick a la activity SignUp. Tienen funcionalidades que explicaremos en breve
+  
   *Un ImageView con el logo de nuestra app.
+  
   *Un Gradient para darle fondo, este difumina dos colores que da un aspecto bonito a la app
+  
   *Un Glide para cargar una imagen de fondo.
+  
   
  En el java de Login tenemos:
   * Glide para carga la imagen de la chica: 
