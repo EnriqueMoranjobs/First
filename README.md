@@ -30,32 +30,50 @@ En el  arbol de componentes tenemos :
   *Dos editview para nuestros TextEdit de "Usuario" y "Password".
   *Dos botones de "Entra" con un Onclick a la activity Main  y "Registrate" con un Onclick a la activity SignUp. Tienen funcionalidades que explicaremos en breve
   *Un ImageView con el logo de nuestra app.
-  *Un Glide para darle fondo, este difumina dos colores que da un aspecto bonito a la app
+  *Un Gradient para darle fondo, este difumina dos colores que da un aspecto bonito a la app
+  *Un Glide para cargar una imagen de fondo.
   
  En el java de Login tenemos:
   * Glide para carga la imagen de la chica: 
   
-   //glide para cargar la imagen de girls
-        Glide.with(this)
-                //carga imagen, hay que dar permiso a internet en android manifest
-                .load(R.drawable.girl)
-                //transition hae que cargue la imagen un poco mas tarde
-                .transition(DrawableTransitionOptions.withCrossFade(100))
-                .into(mgirl);
+        * Glide.with(this)
+        
+        * .load(R.drawable.girl)
+        
+        * .transition(DrawableTransitionOptions.withCrossFade(100))
+        
+        * .into(mgirl);
   
-  * Onclicks para ir a Main y a SignUp
-  *  public void openMain(View w){
+  **Onclicks para ir a Main y a SignUp**
+    public void openMain(View w){
         Intent intent = new Intent(LoginActivity.this,MainActivity.class);
         
-           *intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);   --> Pila de tareas
-           *intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK); --> Nos libera la pila de tareas sacandonos de la app
-           *startActivity(intent);
-    *}
+           intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);   --> Pila de tareas
+           intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK); --> Nos libera la pila de tareas sacandonos de la app
+           startActivity(intent);
+   }
 
-     *public void openSignUp(View w){
-        *Intent intent = new Intent(LoginActivity.this,SignUp.class);
-        *startActivity(intent);
-    *}
+     public void openSignUp(View w){
+        Intent intent = new Intent(LoginActivity.this,SignUp.class);
+        startActivity(intent);
+     }
+     
+ ## SignUp
+ Es nuestra Activity de registro, es una página sencilla sin funcionalidad
+ En el  arbol de componentes tenemos :
+  *Constraint layout
+  *Dos guide line para centrar los componentes en nuestra pantalla
+  *Tres InputLayout para nuestros EditText de "Usuario","Password" y Email.
+  *Un boton de "Logueate" sin funcionalidad.
+  *Un Gradient para darle fondo, este difumina dos colores que da un aspecto bonito a la app
+  *Un Glide con el fondo de un chico.
+  
+   ## Main
+  
+  Es la Activity con mas funcionalidad en nuestra App
+  
+  
+     
 
 
 
