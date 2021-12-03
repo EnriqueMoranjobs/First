@@ -78,10 +78,15 @@ En el  arbol de componentes tenemos :
  Es nuestra Activity de registro, es una página sencilla sin funcionalidad
  En el  arbol de componentes tenemos :
   *Constraint layout
+  
   *Dos guide line para centrar los componentes en nuestra pantalla
+  
   *Tres InputLayout para nuestros EditText de "Usuario","Password" y Email.
+  
   *Un boton de "Logueate" sin funcionalidad.
+  
   *Un Gradient para darle fondo, este difumina dos colores que da un aspecto bonito a la app
+  
   *Un Glide con el fondo de un chico.
   
   ![signup](https://user-images.githubusercontent.com/91469065/144668813-9ded4616-98ec-437e-9cd8-760d7b80b0ea.gif)
